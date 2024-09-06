@@ -1,0 +1,77 @@
+body{
+    background-image: url("https://images.blocksurvey.io/cdn-cgi/imagedelivery/G6cPOuGZ4Z_bEV13gBxixw/template-category/event-experience.svg/l");
+}
+.container{
+    margin-left: 30px;
+    margin-top: 50px;
+}
+table{
+    width: 30%;
+    margin-left: 150px;
+  
+}
+#addstudent{
+    height: 35px;
+    width: 160px;
+   margin-left: 50px;
+ font-weight: bold;
+  font-size: 14px;
+  border-radius: 6px;
+  border: none;
+  background-color: rgb(79, 140, 166);
+  box-shadow: 2px 2px 5px white;
+
+
+}
+#updatestudent{
+    height: 35px;
+    width: 160px;
+   margin-left: 50px;
+ font-weight: bold;
+  font-size: 14px;
+  border-radius: 6px;
+  border: none;
+  background-color: rgb(79, 140, 166);
+  box-shadow: 2px 2px 5px white;
+
+}
+form{
+    font-weight: bolder;
+    font-size: 20px;
+}
+ .hidden{
+    display: none;
+}
+.edit2{
+background-color: green;
+height: 18px;
+width: 50px;
+font-weight: bold;
+font-size: 12px;
+margin-left: 10px;
+border-radius: 6px;
+border: none;
+}
+.edit3{
+    height: 18px;
+width: 50px;
+font-weight: bold;
+font-size: 12px;
+margin-left: 10px;
+border-radius: 6px;
+border: none;
+background-color: rgb(144, 26, 26);
+}
+
+
+
+.hidden{
+    display: none;
+}
+table{
+    width: 50%;
+    border-collapse:collapse;
+}
+table,th,td{
+    border: 1px solid black;
+}

@@ -1,0 +1,87 @@
+
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ques no :2 -->
+    <!-- <div >
+        <h2>Pakistan</h2>
+        <p id="para">Pakistan, officially the Islamic Republic of Pakistan, is a country in South Asia. 
+             <a href="#" id="readmore" onclick="expanded()">Click more .....</a>
+                
+        </p>
+     </div> -->
+
+    <!-- ques no :1 -->
+    <div class="container bg-primary"> 
+        <h1>Form</h1>
+        <form action="" id="form">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name1" required> 
+            <label for="age">Age:</label>
+            <input type="number" name="age" id="age1" required> 
+            <label for="classname">Class:</label>
+            <input type="number" name="classname" id="classname1" required>
+            <label for="password">Password:</label>
+            <input type="number" name="password" id="password1" required>            
+            <button type="submit" id="addstudent">Submit</button> 
+            <br><br>
+        </form>
+        <div>
+            <h3>Submitted Data:</h3>
+            <p id="displayData"></p>
+        </div>
+    </div>
+    <!-- ques no 3 -->
+    <div class="container">
+        <div>
+            <h1>Student Form</h1>
+            <form action="" id="studentform">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" required> 
+                <label for="age">Age:</label>
+                <input type="number" name="age" id="age" required> 
+                <label for="classname">Class:</label>
+                <input type="number" name="classname" id="classname" required>
+                <button type="submit" id="addstudent">Add Student</button> 
+                <br><br>
+            </form>
+        </div>
+        <div>
+            <table border="3px" id="studenttable">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Class</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+        <div id="editformcontent" class="hidden">
+            <form action="" id="editform">
+                <h1>Edit Student Details</h1>
+                <input type="hidden" id="editIndex">
+                <label for="editname">Name:</label>
+                <input type="text" name="editname" id="editname" required>
+                <label for="editage">Age:</label>
+                <input type="number" name="editage" id="editage" required>
+                <label for="editclass">Class:</label>
+                <input type="number" name="editclass" id="editclass" required>
+                <button type="submit" id="updatestudent">Update Student Details</button>
+                <br><br>
+            </form>
+        </div>
+    </div>
+    <script src="app.js"></script>  
+</body>
+</html>
